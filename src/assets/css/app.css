@@ -1,0 +1,9 @@
+@import 'tailwindcss/base.css';
+@import './base/custom-base.css';
+
+@import 'tailwindcss/components.css';
+@import './components/custom-cursor-component.css';
+
+@import 'tailwindcss/utilities.css';
+@import './utilites/animation-utility.css';
+@import './utilites/custom-scrollbar.css';

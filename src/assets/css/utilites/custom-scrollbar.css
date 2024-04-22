@@ -1,0 +1,100 @@
+@layer base {
+    /*Custom scrollbar*/
+    /*Scrollbar default, always visible*/
+    *::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+
+    *::-webkit-scrollbar-track {
+        border-radius: 8px;
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    *::-webkit-scrollbar-track:hover {
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    *::-webkit-scrollbar-track:active {
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    *::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: rgba(13, 148, 136, 5%);
+    }
+
+    *::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(13, 148, 136, 10%);
+    }
+
+    *::-webkit-scrollbar-thumb:active {
+        background-color: rgba(13, 148, 136, 15%);
+    }
+
+
+    /* Scrollbar dynamic, make visible thumb on hover, we use transparent to color fill tecnique so that scrollbar container layout not effected (to avoid layout shifting effect) */
+    [data-scrollbar-type='dynamic']::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+
+    [data-scrollbar-type='dynamic']::-webkit-scrollbar-track {
+        border-radius: 8px;
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    [data-scrollbar-type='dynamic']::-webkit-scrollbar-track:hover {
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    [data-scrollbar-type='dynamic']::-webkit-scrollbar-track:active {
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    [data-scrollbar-type='dynamic']::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: rgba(13, 148, 136, 0%);
+    }
+
+    [data-scrollbar-type='dynamic']::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(13, 148, 136, 0%);
+    }
+
+    [data-scrollbar-type='dynamic']::-webkit-scrollbar-thumb:active {
+        background-color: rgba(13, 148, 136, 0%);
+    }
+
+    /* Make scrollbar thumb visible when active */
+
+    [data-scrollbar-type='dynamic'][data-scrollbar='active']::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+
+    [data-scrollbar-type='dynamic'][data-scrollbar='active']::-webkit-scrollbar-track {
+        border-radius: 8px;
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    [data-scrollbar-type='dynamic'][data-scrollbar='active']::-webkit-scrollbar-track:hover {
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    [data-scrollbar-type='dynamic'][data-scrollbar='active']::-webkit-scrollbar-track:active {
+        background-color: rgb(255, 255, 255, 0%);
+    }
+
+    [data-scrollbar-type='dynamic'][data-scrollbar='active']::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: rgba(13, 148, 136, 10%);
+    }
+
+    [data-scrollbar-type='dynamic'][data-scrollbar='active']::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(13, 148, 136, 20%);
+    }
+
+    [data-scrollbar-type='dynamic'][data-scrollbar='active']::-webkit-scrollbar-thumb:active {
+        background-color: rgba(13, 148, 136, 20%);
+    }
+}

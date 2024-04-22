@@ -1,69 +1,53 @@
-<script setup lang="ts"></script>
+<!-- TODO Mobile, Route  -->
+<!--Credit: osorina (codepen), custom-cursor (custom-cursor-logo), Animista -->
+<!-- Todo (future): fix cursor  -->
+
+<script lang="ts" setup>
+import StarDroppingBgAnimation from '@/components/StarDroppingBgAnimation.vue'
+import TopArrow from '@/components/svg/TopArrow.vue'
+import BottomArrow from '@/components/svg/BottomArrow.vue'
+import SideNav from '@/components/SideNav.vue'
+import SocialMediaIcons from '@/components/SocialMediaIcons.vue'
+</script>
 
 <template>
-  <div class="w-full h-screen bg-[#1d1d20] flex place-content-center">
-
-    <div class="relative p-8 lg:p-12 max-w-7xl m-auto">
+  <div class="relative flex h-screen w-full">
+    <StarDroppingBgAnimation />
+    <div class="relative m-auto mx-2 max-w-7xl p-4 lg:mx-0 lg:p-8">
       <!--Top arrow-->
-      <div class="absolute top-0 left-0">
-        <svg
-          width="200"
-          height="200"
-          viewBox="0 0 200 200"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M193 -3.0598e-07C196.866 -1.36992e-07 200 3.13401 200 7C200 10.866 196.866 14 193 14L7 14C3.134 14 -4.74968e-07 10.866 -3.0598e-07 6.99999C-1.36992e-07 3.134 3.134 -8.60529e-06 7 -8.4363e-06L193 -3.0598e-07Z"
-            fill="url(#paint0_linear_2635_43)"
-          />
-          <path
-            d="M14 193C14 196.866 10.866 200 6.99999 200C3.13399 200 -8.60529e-06 196.866 -8.4363e-06 193L-3.0598e-07 6.99999C-1.36992e-07 3.134 3.134 -8.60529e-06 7 -8.4363e-06C10.866 -8.09832e-06 14 3.134 14 6.99999L14 193Z"
-            fill="url(#paint1_linear_2635_43)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_2635_43"
-              x1="200"
-              y1="7"
-              x2="28.445"
-              y2="217.855"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="8.63033e-05" stop-color="#9D174D" />
-              <stop offset="1" stop-color="#0284C7" />
-            </linearGradient>
-            <linearGradient
-              id="paint1_linear_2635_43"
-              x1="200"
-              y1="7"
-              x2="28.445"
-              y2="217.855"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="8.63033e-05" stop-color="#9D174D" />
-              <stop offset="1" stop-color="#0284C7" />
-            </linearGradient>
-          </defs>
-        </svg>
+      <div class="absolute left-0 top-0">
+        <TopArrow />
       </div>
 
       <!--Content-->
-      <div class="grid grid-cols-[16.5%_1fr_16.5%]">
+      <div
+        class="grid grid-cols-[24px_1fr_24px] grid-rows-[90vh] lg:grid-cols-[12%_1fr_12%] lg:grid-rows-[750px]"
+      >
         <!--Logo & social media icons-->
         <div class="flex flex-col justify-between">
-          <a class="text-[34px] font-bold text-left text-neutral-100 tracking-[4px]" href="/">
-            Arif
-          </a>
-          <div class="text-neutral-100">Facebook</div>
+          <!--Logo-->
+          <div class="logo-animation invisible lg:block">
+            <a
+              v-typing-animation="'Arif'"
+              class="line-animation text-left text-[34px] font-bold tracking-[4px] text-neutral-100"
+              href="/"
+              >A</a
+            >
+          </div>
+          <!--Icon-->
+          <SocialMediaIcons />
         </div>
 
         <!--Project details-->
-        <div class="py-16">
+        <div
+          v-custom-scroll-bar
+          class="content-animation my-8 overflow-auto lg:my-16"
+          data-scrollbar-type="dynamic"
+        >
           <!--Text content-->
           <div class="mb-6">
-            <p class="text-[22px] font-bold text-left text-pink-600 mb-2">Form builder</p>
-            <p class="text-sm text-left text-neutral-100">
+            <p class="mb-2 text-left text-[22px] font-bold text-pink-600">Form builder</p>
+            <p class="text-left text-sm text-neutral-100">
               Embark on a virtual journey through a bustling cityscape, crafted entirely in-browser.
               Perfect for mastering 3D modeling techniques using Blender, with a focus on intricate
               details and realistic textures. Dive into the world of interactive web development
@@ -73,97 +57,100 @@
           </div>
 
           <!--Video-->
-          <iframe
-            class="rounded-lg overflow-hidden w-full h-[500px]"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            frameborder="0"
-            referrerpolicy="strict-origin-when-cross-origin"
-            src="https://www.youtube.com/embed/oKIThIihv60?si=8U1VM7C6datFQdew"
-            title="YouTube video player"
-          >
-          </iframe>
+          <section class="space-y-4">
+            <div class="aspect-h-9 aspect-w-16">
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                class="h-full w-full overflow-hidden rounded-lg"
+                frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
+                src="https://www.youtube.com/embed/oKIThIihv60?si=8U1VM7C6datFQdew"
+                title="YouTube video player"
+              >
+              </iframe>
+            </div>
+
+            <div class="aspect-h-9 aspect-w-16">
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                class="h-full w-full overflow-hidden rounded-lg"
+                frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
+                src="https://www.youtube.com/embed/oKIThIihv60?si=8U1VM7C6datFQdew"
+                title="YouTube video player"
+              >
+              </iframe>
+            </div>
+          </section>
         </div>
 
-        <!--Project list-->
-        <div class="flex flex-col justify-start items-end gap-2">
-          <h2 class="flex-grow-0 flex-shrink-0 text-[22px] font-bold text-left text-neutral-100">
-            Projects
-          </h2>
-          <div
-            class="flex flex-col justify-start items-end flex-grow-0 flex-shrink-0 [&_a]:left-0 [&_a]:top hover:[&_a]:text-pink-700 [&_a]:transition-all [&_a]:duration-300"
-          >
-            <a class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100" href="#"
-              >Intro</a
-            >
-            <a class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100" href="#"
-              >Dev hub</a
-            >
-            <a class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100" href="#"
-              >Web code mingle</a
-            >
-            <a class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100" href="#"
-              >Pixel forge</a
-            >
-            <a class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100" href="#">
-              Form builder
-            </a>
-            <a class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100" href="#"
-              >Visual builder</a
-            >
-            <a class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100" href="#"
-              >AI extension</a
-            >
-          </div>
-        </div>
+        <!--Project list nav-->
+        <SideNav />
       </div>
 
       <!--Bottom arrow-->
       <div class="absolute bottom-0 right-0">
-        <svg
-          class="ml-auto"
-          width="200"
-          height="200"
-          viewBox="0 0 200 200"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M7.00001 200C3.13401 200 -1.36992e-07 196.866 -3.0598e-07 193C-4.74968e-07 189.134 3.13401 186 7 186L193 186C196.866 186 200 189.134 200 193C200 196.866 196.866 200 193 200L7.00001 200Z"
-            fill="url(#paint0_linear_2635_44)"
-          />
-          <path
-            d="M186 6.99999C186 3.13399 189.134 -8.26731e-06 193 -8.4363e-06C196.866 -8.60529e-06 200 3.13399 200 6.99999L200 193C200 196.866 196.866 200 193 200C189.134 200 186 196.866 186 193L186 6.99999Z"
-            fill="url(#paint1_linear_2635_44)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_2635_44"
-              x1="-2.08016e-06"
-              y1="193"
-              x2="171.555"
-              y2="-17.8548"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="8.63033e-05" stop-color="#9D174D" />
-              <stop offset="1" stop-color="#0284C7" />
-            </linearGradient>
-            <linearGradient
-              id="paint1_linear_2635_44"
-              x1="-2.08016e-06"
-              y1="193"
-              x2="171.555"
-              y2="-17.8548"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="8.63033e-05" stop-color="#9D174D" />
-              <stop offset="1" stop-color="#0284C7" />
-            </linearGradient>
-          </defs>
-        </svg>
+        <BottomArrow />
       </div>
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* Logo animation*/
+.logo-animation :first-child {
+  padding: 0 5px;
+  transition: all 0.4s ease-in-out 0s;
+  box-shadow: inset 0 0 0 0 #db2777;
+}
+.logo-animation > :first-child:hover {
+  color: white;
+  box-shadow: inset 300px 0 0 0 #db2777;
+}
+
+/*Content animation*/
+@keyframes blazy_pb8k01 {
+  0% {
+    clip-path: inset(0% 0% 0% 100%);
+  }
+
+  100% {
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
+.content-animation {
+  animation-name: blazy_pb8k01;
+  animation-duration: 999ms;
+  animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1);
+  animation-delay: 1ms;
+
+  /* Element properties */
+  animation-iteration-count: 1;
+  animation-direction: normal;
+
+  clip-path: inset(0% 0% 0% 100%);
+  animation-fill-mode: forwards;
+}
+
+@keyframes blazy_7cnpng {
+  0% {
+    clip-path: circle(0% at center);
+  }
+
+  100% {
+    clip-path: circle(100% at center);
+  }
+}
+.content-animation-2 {
+  animation-name: blazy_7cnpng;
+  animation-duration: 1000ms;
+  animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1);
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  clip-path: circle(0% at center);
+  animation-fill-mode: forwards;
+}
+</style>
