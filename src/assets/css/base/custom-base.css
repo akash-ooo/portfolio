@@ -13,6 +13,9 @@
     line-height: 1.5;
   }
 
+  body {
+    @apply bg-[url('src/assets/images/home-bg.jpg')] bg-cover bg-center w-screen h-screen
+  }
   /*Default transition*/
   *,
   *::before,

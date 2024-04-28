@@ -1,22 +1,51 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import IntroView from '@/views/IntroView.vue'
+import CompleteEcommerce from '@/views/CompleteEcommerce.vue'
+import LaravelCdrView from '@/views/LaravelCdrView.vue'
+import CrossCdrView from '@/views/CrossCdrView.vue'
+import GamingView from '@/views/GamingView.vue'
+import PortfolioView from '@/views/PortfolioView.vue'
+import ExperimentView from '@/views/ExperimentView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  linkActiveClass: 'link-active',
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'intro',
+      component: IntroView
     },
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (About.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import('../views/AboutView.vue')
-    // }
+    {
+      path: '/ecommerce',
+      name: 'ecommerce',
+      component: CompleteEcommerce
+    },
+    {
+      path: '/laravel-cdr-analyzer',
+      name: 'lc',
+      component: LaravelCdrView
+    },
+    {
+      path: '/cross-platform-cdr-analyzer',
+      name: 'cca',
+      component: CrossCdrView
+    },
+    {
+      path: '/gaming',
+      name: 'gaming',
+      component: GamingView
+    },
+    {
+      path: '/portfolio',
+      name: 'portfolio',
+      component: PortfolioView
+    },
+    {
+      path: '/experiments',
+      name: 'experiments',
+      component: ExperimentView
+    },
   ]
 })
 

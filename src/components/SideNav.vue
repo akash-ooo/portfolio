@@ -1,57 +1,58 @@
-<script setup lang="ts">
-
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div class="hidden lg:flex flex-col justify-start items-end gap-2">
-    <div class="logo-animation">
-      <h2
-        class="flex-grow-0 flex-shrink-0 text-[22px] font-bold text-left text-neutral-100 line-animation"
-      >
-        Projects
-      </h2>
+  <div class="hidden lg:order-3 lg:block">
+    <div class="fill-animation flex mb-4">
+      <h2 class="line-animation text-left text-[22px] font-bold text-neutral-100 ">Projects</h2>
     </div>
     <div
-      class="flex flex-col justify-start items-end flex-grow-0 flex-shrink-0 [&_a]:font-semibold  hover:[&_a]:text-pink-600 [&_a]:transition-all [&_a]:duration-300 space-y-1"
+      class="[&_a]:font-semibold [&_a]:transition-all [&_a]:duration-300 hover:[&_a]:text-pink-600"
     >
-      <a
-        class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100 relative line-animation link-active"
+      <RouterLink
+        :to="{ name: 'intro' }"
+        class="line-animation text-nowrap text-sm text-neutral-100"
         href="#"
-      >Intro</a
-      >
-      <a
-        class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100 line-animation"
+        >Intro
+      </RouterLink>
+      <br />
+      <RouterLink
+        :to="{ name: 'ecommerce' }"
+        class="line-animation text-nowrap text-sm text-neutral-100"
         href="#"
-      >Complete Ecommerce</a
-      >
-      <a
-        class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100 line-animation"
+        >Complete Ecommerce </RouterLink
+      ><br />
+      <RouterLink
+        :to="{ name: 'lc' }"
+        class="line-animation text-nowrap text-sm text-neutral-100"
         href="#"
-      >Call list Analyzer</a
-      >
-      <a
-        class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100 line-animation"
+        >Call list Analyzer </RouterLink
+      ><br />
+      <RouterLink
+        :to="{ name: 'cca' }"
+        class="line-animation text-nowrap text-sm text-neutral-100"
         href="#"
-      >Gaming</a>
-      <a
-        class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100 line-animation"
+        >Cross Platform App </RouterLink
+      ><br />
+      <RouterLink
+        :to="{ name: 'gaming' }"
+        class="line-animation text-nowrap text-sm text-neutral-100"
         href="#"
-      >Portfolio</a>
-      <a
-        class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100 line-animation"
+        >Gaming </RouterLink
+      ><br />
+      <RouterLink
+        :to="{ name: 'portfolio' }"
+        class="line-animation text-nowrap text-sm text-neutral-100"
         href="#"
-      >
-        Hybrid App
-      </a>
-      <a
-        class="flex-grow-0 flex-shrink-0 text-sm text-right text-neutral-100 line-animation"
+        >Portfolio </RouterLink
+      ><br />
+      <RouterLink
+        :to="{ name: 'experiments' }"
+        class="line-animation text-nowrap text-sm text-neutral-100"
         href="#"
-      >Experiments</a
-      >
+        >Experiments
+      </RouterLink>
     </div>
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
