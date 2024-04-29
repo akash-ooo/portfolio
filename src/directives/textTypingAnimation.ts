@@ -1,6 +1,6 @@
 export default {
   mounted: function (el: HTMLElement, binding: { value: string }) {
-    const text = binding.value || 'Hello, world!'
+    const text = binding.value || 'Default value!'
     el.textContent = ''
     let index = 0
 

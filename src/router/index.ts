@@ -11,42 +11,46 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   linkActiveClass: 'link-active',
   routes: [
-    {
-      path: '/',
-      name: 'intro',
-      component: IntroView
-    },
-    {
-      path: '/ecommerce',
-      name: 'ecommerce',
-      component: CompleteEcommerce
-    },
-    {
-      path: '/laravel-cdr-analyzer',
-      name: 'lc',
-      component: LaravelCdrView
-    },
-    {
-      path: '/cross-platform-cdr-analyzer',
-      name: 'cca',
-      component: CrossCdrView
-    },
-    {
-      path: '/gaming',
-      name: 'gaming',
-      component: GamingView
-    },
-    {
-      path: '/portfolio',
-      name: 'portfolio',
-      component: PortfolioView
-    },
-    {
-      path: '/experiments',
-      name: 'experiments',
-      component: ExperimentView
-    },
-  ]
+  {
+    path: '/',
+    name: 'intro',
+    component: IntroView
+  },
+  {
+    path: '/complete-ecommerce',
+    name: 'ecommerce',
+    component: CompleteEcommerce
+  },
+  {
+    path: '/laravel-cdr-analyzer',
+    name: 'lc',
+    component: LaravelCdrView
+  },
+  {
+    path: '/cross-platform-cdr-analyzer',
+    name: 'cca',
+    component: CrossCdrView
+  },
+  {
+    path: '/gaming-contest-platform',
+    name: 'gaming',
+    component: GamingView
+  },
+  {
+    path: '/this-self-portfolio',
+    name: 'portfolio',
+    component: PortfolioView
+  },
+  {
+    path: '/experimental-projects',
+    name: 'experiments',
+    component: ExperimentView
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: {name: 'intro'}
+  }
+]
 })
 
 export default router

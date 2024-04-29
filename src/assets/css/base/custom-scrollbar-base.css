@@ -1,6 +1,6 @@
 @layer base {
     /*Custom scrollbar*/
-    /*Scrollbar default, always visible*/
+    /*Variant: default, always visible scrollbar thumb*/
     *::-webkit-scrollbar {
         width: 4px;
         height: 4px;
@@ -33,7 +33,9 @@
     }
 
 
-    /* Scrollbar dynamic, make visible thumb on hover, we use transparent to color fill tecnique so that scrollbar container layout not effected (to avoid layout shifting effect) */
+    /* Variant: dynamic, show scrollbar thumb on hover. I achieve this by initially making the thumb transparent, then filling it with color.
+    When hovering over the overflowed element, I update the scrollbar style to maintain container layout consistency. */
+    /*JS just adding the data attribute on hover on overflowed element*/
     [data-scrollbar-type='dynamic']::-webkit-scrollbar {
         width: 4px;
         height: 4px;

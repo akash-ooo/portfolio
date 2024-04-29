@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="lg:hidden flex-col justify-start items-end gap-2">
+  <div class="lg:hidden flex-col justify-start items-end gap-2 !mb-6">
     <h2
       class="flex-grow-0 flex-shrink-0 text-[18px] font-bold text-left text-neutral-100 ">
       Projects
@@ -27,7 +27,7 @@
         :to="{ name: 'lc' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
-      >Call list Analyzer
+      >Call List Analyzer
       </RouterLink>
       <RouterLink
         :to="{ name: 'cca' }"

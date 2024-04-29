@@ -14,7 +14,7 @@
   }
 
   body {
-    @apply bg-[url('src/assets/images/home-bg.jpg')] bg-cover bg-center w-screen h-screen
+    @apply bg-[url('/src/assets/images/home-bg.jpg')] bg-cover bg-center w-screen h-screen
   }
   /*Default transition*/
   *,
@@ -34,11 +34,11 @@
   }
 
 /*Active link*/
-  a.link-active {
+  a.link-active:not(.unstyle-link) {
     position: relative;
-    @apply text-pink-600 font-semibold
+    @apply text-pink-600
   }
-  a.link-active:before {
+  a.link-active:not(.unstyle-link):before {
     position: absolute;
     top: 0;
     left: 0;
@@ -50,7 +50,7 @@
     @apply bg-pink-600;
     transform: scale(1);
   }
-  a.link-active:after {
+  a.link-active:not(.unstyle-link):after {
     position: absolute;
     right: 0;
     bottom: 0;

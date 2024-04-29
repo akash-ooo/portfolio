@@ -1,6 +1,4 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="flex space-x-2">
@@ -43,39 +41,37 @@
     <a href="mailto:whynoakash@gmaail.com?subject=Let's%20discuss%20a%20project" target="_blank">
       <svg
         class="group/icon puff-in-center"
-        fill="none"
+        width="24"
         height="24"
         viewBox="0 0 24 24"
-        width="24"
+        fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <mask
-          id="mask0_2635_52"
-          height="24"
-          maskUnits="userSpaceOnUse"
+          id="mask0_2640_41"
           style="mask-type: alpha"
-          width="24"
+          maskUnits="userSpaceOnUse"
           x="0"
           y="0"
+          width="24"
+          height="24"
         >
-          <rect fill="#D9D9D9" height="24" width="24" />
+          <rect width="24" height="24" fill="#D9D9D9" />
         </mask>
-        <g mask="url(#mask0_2635_52)">
-          <path
-            class="group-hover/icon:fill-pink-700"
-            d="M3.99997 20C3.44997 20 2.97914 19.8042 2.58747 19.4125C2.1958 19.0208 1.99997 18.55 1.99997 18V6C1.99997 5.45 2.1958 4.97917 2.58747 4.5875C2.97914 4.19583 3.44997 4 3.99997 4H20C20.55 4 21.0208 4.19583 21.4125 4.5875C21.8041 4.97917 22 5.45 22 6V18C22 18.55 21.8041 19.0208 21.4125 19.4125C21.0208 19.8042 20.55 20 20 20H3.99997ZM12 13L3.99997 8V18H20V8L12 13ZM12 11L20 6H3.99997L12 11ZM3.99997 8V6V18V8Z"
-            fill="#D4D4D4"
-          />
-        </g>
+
+        <path
+          class="group-hover/icon:fill-pink-700"
+          d="M2.66667 4C1.19444 4 0 5.19444 0 6.66667V17.3333C0 18.8056 1.19444 20 2.66667 20H20.4444C21.9167 20 23.1111 18.8056 23.1111 17.3333V6.66667C23.1111 5.19444 21.9167 4 20.4444 4H2.66667ZM2.66667 5.77778H20.4444C20.934 5.77778 21.5333 6.17708 21.5333 6.66667V7.11111L11.5556 12.3889L1.77778 7.11111V6.66667C1.77778 6.17708 2.17708 5.77778 2.66667 5.77778ZM1.77778 7.36111L7.58333 11.8889L1.88889 17.7222L8.83333 12.7778L11.5556 14.5278L14.2778 12.7778L21.2222 17.7222L15.5278 11.8889L21.5333 7.36111V17.3333C21.5333 17.4792 21.2847 17.6007 21.2222 17.7222C21.0764 18.0104 20.7917 18.2222 20.4444 18.2222H2.66667C2.31944 18.2222 2.03472 18.0104 1.88889 17.7222C1.82639 17.6007 1.77778 17.4792 1.77778 17.3333V7.36111Z"
+          fill="#D4D4D4"
+        />
       </svg>
     </a>
   </div>
 </template>
 
 <style scoped>
-
 .puff-in-center:hover {
-  -webkit-animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  -webkit-animation: puff-in-center 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
   animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 @-webkit-keyframes puff-in-center {
@@ -96,8 +92,8 @@
 }
 @keyframes puff-in-center {
   0% {
-    -webkit-transform: scale(2);
-    transform: scale(2);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
     -webkit-filter: blur(4px);
     filter: blur(4px);
     opacity: 0;
