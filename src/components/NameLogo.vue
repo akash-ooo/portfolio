@@ -5,7 +5,7 @@
 <template>
   <div class="lg:basis-[20%]">
     <RouterLink
-      v-typing-animation="'Arif'"
+      v-typing-animation="'Akash'"
       class="unstyle-link inline-block text-left text-[34px] font-bold leading-[34px] tracking-[4px] text-neutral-100 hover:text-pink-600"
       to="/"
     >A</RouterLink

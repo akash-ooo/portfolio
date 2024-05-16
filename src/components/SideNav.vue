@@ -24,7 +24,7 @@
           :to="{ name: 'ecommerce' }"
           class="line-animation text-nowrap text-sm text-neutral-100"
           href="#"
-          >Complete Ecommerce
+          >Complete E-commerce
         </RouterLink>
       </div>
       <div class="text-right">
@@ -32,15 +32,7 @@
           :to="{ name: 'lc' }"
           class="line-animation text-nowrap text-sm text-neutral-100"
           href="#"
-          >Call list Analyzer
-        </RouterLink>
-      </div>
-      <div class="text-right">
-        <RouterLink
-          :to="{ name: 'cca' }"
-          class="line-animation text-nowrap text-sm text-neutral-100"
-          href="#"
-          >Cross Platform App
+          >Call & SMS Analyzer
         </RouterLink>
       </div>
       <div class="text-right">
@@ -48,7 +40,7 @@
           :to="{ name: 'gaming' }"
           class="line-animation text-nowrap text-sm text-neutral-100"
           href="#"
-          >Gaming
+          >Gaming Platform
         </RouterLink>
       </div>
       <div class="text-right">

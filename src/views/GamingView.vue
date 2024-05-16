@@ -24,11 +24,9 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
 
         <!--Videos-->
         <section class="space-y-4">
-          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/oKIThIihv60?si=8U1VM7C6datFQdew" />
-          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/oKIThIihv60?si=8U1VM7C6datFQdew" />
-          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/oKIThIihv60?si=8U1VM7C6datFQdew" />
-          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/oKIThIihv60?si=8U1VM7C6datFQdew" />
-          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/oKIThIihv60?si=8U1VM7C6datFQdew" />
+          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/bDqu0KY5y18?si=T8_U09RgkWvUIZRM" />
+          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/Pv76rQNkxQ8?si=nHb-mkFVcMsL7VTX" />
+          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/XQQ7hD3mcxc?si=UCp2y2e73FTikbRW" />
         </section>
       </div>
     </div>

@@ -2,7 +2,7 @@
 
 <template>
   <div class="flex space-x-2">
-    <a href="https://www.linkedin.com/in/arif-so/" target="_blank">
+    <a href="https://www.linkedin.com/in/akash-ooo/" target="_blank">
       <svg
         class="group/icon puff-in-center"
         fill="none"
@@ -38,7 +38,7 @@
       </svg>
     </a>
 
-    <a href="mailto:whynoakash@gmaail.com?subject=Let's%20discuss%20a%20project" target="_blank">
+    <a href="mailto:mah.akash.ooo@gmail.com?subject=Let's%20discuss%20a%20project" target="_blank">
       <svg
         class="group/icon puff-in-center"
         width="24"

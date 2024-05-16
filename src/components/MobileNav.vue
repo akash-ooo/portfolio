@@ -21,25 +21,19 @@
         :to="{ name: 'ecommerce' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
-      >Complete Ecommerce
+      >Complete E-commerce
       </RouterLink>
       <RouterLink
         :to="{ name: 'lc' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
-      >Call List Analyzer
-      </RouterLink>
-      <RouterLink
-        :to="{ name: 'cca' }"
-        class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
-        href="#"
-      >Cross Platform App
+      >Call & SMS Analyzer
       </RouterLink>
       <RouterLink
         :to="{ name: 'gaming' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
-      >Gaming
+      >Gaming Platform
       </RouterLink>
       <RouterLink
         :to="{ name: 'portfolio' }"
