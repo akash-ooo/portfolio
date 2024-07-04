@@ -3,20 +3,18 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
 </script>
 
 <template>
+  <!--TODO: Add last updated or copyright date (ask AI)-->
   <section class="h-full grow overflow-auto lg:basis-full lg:px-6 lg:py-12">
     <div v-custom-scroll-bar class="h-full overflow-auto rounded-md" data-scrollbar-type="dynamic">
       <div class="sliding-left-animation overflow-auto">
         <!--Text-->
-        <div class="mb-4">
-          <h2 class="mb-4 text-left text-[22px] font-bold text-pink-600">
-            City Stanja Complete E-commerce Website & Android App
+        <div class="mb-6">
+          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">
+            City Stanja complete e-commerce website & Android app
           </h2>
-          <p class="mb-2">
-            Tech Stack: Photoshop, HTML, CSS, RWD, JavaScript, jQuery, PHP, MySQL, SEO, and DevOps.
-          </p>
-          <p class="text-left text-sm text-neutral-100">
+          <p class="mb-2 text-left text-sm text-neutral-100">
             In this
-            <a class="link" href="https://citystanja.com/" target="_blank">www.citystanja.com</a>
+            <a class="link" href="https://citystanja.com/" target="_blank">City Stanja ↗</a>
             e-commerce project, I handled UI/UX design, full-stack development, comprehensive
             testing, efficient deployment, and marketing strategy. As a UI/UX designer, I revamped
             websites using Photoshop, focusing on brand consistency and mobile responsiveness. I
@@ -24,34 +22,30 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             development, I managed MySQL databases, secured against SQL injection, and optimized
             website performance. Additionally, I led digital marketing initiatives, including
             multilevel affiliate programs and Facebook-centric viral marketing
-            Pay-Per-Facebook-Share model. Overall, I played a key role in boosting the startup's
-            prominence in the Bangladesh e-commerce clothing market, achieving 150,000 customers and
-            significant revenue growth.
+            Pay-Per-Facebook-Share model.
+          </p>
+          <p class="mb-2">
+            I boosted our online business in the Bangladesh e-commerce clothing market, reaching
+            150,000 customers and earning 5 million BDT in revenue last year.
+          </p>
+          <p>
+            Tech stack: Photoshop, HTML, CSS, RWD, JavaScript, jQuery, PHP, MySQL, SEO, and DevOps.
           </p>
         </div>
 
         <!--Videos-->
-        <section>
-          <div class="mb-4">
+        <section class="space-y-6">
+          <div>
             <h3 class="mb-3">Customer section</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/IprckT524MM?si=mnGOFnPlaLbkfI6L"
             />
           </div>
 
-          <div class="mb-4">
-            <h3 class="mb-3">
-              Multi level affiliate system and Pay-Per-Facebook-Share affiliate model
-            </h3>
+          <div>
+            <h3 class="mb-3">Pay-Per-Facebook-Share model and Multi level affiliate system</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/HOyzCLF7ICQ?si=5J0RsEmkmoMJ8fof"
-            />
-          </div>
-
-          <div class="mb-4">
-            <h3 class="mb-3">Coupon system</h3>
-            <ResponsiveYoutubeIframe
-              url="https://www.youtube.com/embed/Ru-GMwrcfI0?si=9ERXZhye1edFmWL4"
             />
           </div>
 
@@ -59,6 +53,13 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             <h3 class="mb-3">Admin section</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/vAUSkbBSNgc?si=lDT5Ob52RIUZILSp"
+            />
+          </div>
+
+          <div>
+            <h3 class="mb-3">Coupon system</h3>
+            <ResponsiveYoutubeIframe
+              url="https://www.youtube.com/embed/Ru-GMwrcfI0?si=9ERXZhye1edFmWL4"
             />
           </div>
         </section>

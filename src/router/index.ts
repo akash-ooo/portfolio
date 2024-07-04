@@ -4,7 +4,7 @@ import CompleteEcommerce from '@/views/CompleteEcommerce.vue'
 import LaravelCdrView from '@/views/LaravelCdrView.vue'
 import GamingView from '@/views/GamingView.vue'
 import PortfolioView from '@/views/PortfolioView.vue'
-import ExperimentView from '@/views/ExperimentView.vue'
+import OtherView from '@/views/OtherView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -31,14 +31,14 @@ const router = createRouter({
     component: GamingView
   },
   {
-    path: '/this-self-portfolio',
+    path: '/portfolio',
     name: 'portfolio',
     component: PortfolioView
   },
   {
-    path: '/experimental-projects',
-    name: 'experiments',
-    component: ExperimentView
+    path: '/other-projects',
+    name: 'others',
+    component: OtherView
   },
   {
     path: '/:pathMatch(.*)*',

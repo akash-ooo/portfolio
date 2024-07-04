@@ -21,19 +21,19 @@
         :to="{ name: 'ecommerce' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
-      >Complete E-commerce
+      >Complete e-commerce
       </RouterLink>
       <RouterLink
         :to="{ name: 'lc' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
-      >Call & SMS Analyzer
+      >Call & SMS analyzer
       </RouterLink>
       <RouterLink
         :to="{ name: 'gaming' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
-      >Gaming Platform
+      >Gaming platform
       </RouterLink>
       <RouterLink
         :to="{ name: 'portfolio' }"
@@ -42,10 +42,10 @@
       >Portfolio
       </RouterLink>
       <RouterLink
-        :to="{ name: 'experiments' }"
+        :to="{ name: 'others' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
-      >Experiments
+      >Others
       </RouterLink>
     </div>
   </div>

@@ -19,7 +19,7 @@
       </svg>
     </a>
 
-    <a href="https://twitter.com/arif_sooo" target="_blank">
+    <a href="https://github.com/akash-ooo" target="_blank">
       <svg
         class="group/icon puff-in-center"
         fill="none"

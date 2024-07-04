@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import StarDroppingBgAnimation from '@/components/StarDroppingBgAnimation.vue'
 import TopArrow from '@/components/svg/TopArrow.vue'
 import BottomArrow from '@/components/svg/BottomArrow.vue'
 import SideNav from '@/components/SideNav.vue'

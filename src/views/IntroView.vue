@@ -6,7 +6,7 @@
       <div class="sliding-left-animation overflow-auto">
         <div class="mb-4 space-y-3">
           <!--Picture-->
-          <div class="flex items-center justify-center !mb-4">
+          <div class="!mb-4 flex items-center justify-center">
             <img
               class="h-auto w-[150px] text-center lg:h-full lg:w-[170px]"
               src="/src/assets/images/md-arif-hossain-akash-full-stack-web-developer-and-ui-ux-designer.png"
@@ -14,15 +14,15 @@
             />
           </div>
           <!--Text content-->
-          <h2 class="mb-2 text-center text-[22px] font-bold text-pink-600">
-            Full-Stack Software Engineer & UI/UX Designer
+          <h2 class="mb-3 text-center text-[22px] font-bold text-pink-600">
+            Full-Stack software engineer & UI/UX designer
           </h2>
           <div class="text-center text-sm">
-            As a self-taught full-stack web developer, I have over 4 years of experience and 1 year
-            in UI/UX design. I excel in team management and digital product development, making me a
-            versatile all-rounder in multiple fields. My mission is to drive business success
-            through a fusion of innovative thinking, design, and code. I also have experience in
-            digital marketing and cybersecurity analysis. Here's my full skillset:
+            With 5+ years of full-stack web development experience and 1 year in UI/UX design, I
+            have a robust background. I excel in team management and digital product development,
+            aiming to drive business success through a fusion of innovative thinking, design, and
+            code. Additionally, I have experience in digital marketing and cybersecurity analysis.
+            Here's my full skillset:
           </div>
 
           <div class="text-center text-sm">
@@ -44,14 +44,14 @@
 
           <p class="text-center text-sm">
             <span class="font-semibold">DevOps and Additional Skills</span> <br />
-            Git, Testing & Debugging, Web Domain & Hosting Management (WHM and cPanel), Apache,
-            Nginx, CDN, WordPress, WooCommerce, Mobile & Desktop WebView App, Digital Marketing,
-            Word, Excel, PowerPoint, Video Editing (Basic).
+            Git, Testing & Debugging, Domain & Cloud Server Management, Apache, Nginx, CDN,
+            WordPress, WooCommerce, Mobile & Desktop WebView App, Digital Marketing, Word, Excel,
+            PowerPoint, Video Editing (Basic).
           </p>
 
           <p class="text-center text-sm">
-            Connect with me via social media or email for project inquiries and collaborations. Open
-            for hire, let's discuss!
+            Connect with me via social media or email for project inquiries and collaborations. I am
+            open to new opportunities – let's discuss!
           </p>
         </div>
       </div>

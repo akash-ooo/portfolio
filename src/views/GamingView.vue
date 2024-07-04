@@ -4,29 +4,46 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
 
 <template>
   <section class="h-full grow overflow-auto lg:basis-full lg:px-6 lg:py-12">
-    <div
-      v-custom-scroll-bar
-      class="h-full overflow-auto rounded-md"
-      data-scrollbar-type="dynamic"
-    >
+    <div v-custom-scroll-bar class="h-full overflow-auto rounded-md" data-scrollbar-type="dynamic">
       <div class="sliding-left-animation overflow-auto">
         <!--Text-->
-        <div class="mb-4">
-          <h2 class="mb-2 text-left text-[22px] font-bold text-pink-600">Form builder</h2>
+        <div class="mb-6">
+          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Virtual game room</h2>
           <p class="text-left text-sm text-neutral-100">
-            Embark on a virtual journey through a bustling cityscape, crafted entirely
-            in-browser. Perfect for mastering 3D modeling techniques using Blender, with a
-            focus on intricate details and realistic textures. Dive into the world of
-            interactive web development with React Three Fiber, bringing your creations to
-            life with dynamic animations and immersive experiences.
+            I independently spearheaded the development of this virtual game room platform where
+            players of PUBG and Valorant-type games can join tournaments and engage in competitive
+            gaming. I optimized the UI/UX in Adobe XD, creating a high-fidelity prototype, and
+            implemented a mobile-first frontend using HTML, CSS, and JavaScript. Backend
+            functionalities, powered by Laravel PHP and MySQL, and managed through DevOps practices,
+            include a dynamic admin panel for seamless operation. This project integrates
+            multiplayer gaming, tournament management, live streaming, and brand promotion,
+            delivering a responsive, SEO-optimized experience across devices. Please note, the
+            project video is not final.
           </p>
         </div>
 
         <!--Videos-->
-        <section class="space-y-4">
-          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/bDqu0KY5y18?si=T8_U09RgkWvUIZRM" />
-          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/Pv76rQNkxQ8?si=nHb-mkFVcMsL7VTX" />
-          <ResponsiveYoutubeIframe url="https://www.youtube.com/embed/XQQ7hD3mcxc?si=UCp2y2e73FTikbRW" />
+        <section class="space-y-6">
+          <div>
+            <h3 class="mb-3">Adobe XD high-fidelity design</h3>
+            <ResponsiveYoutubeIframe
+              url="https://www.youtube.com/embed/bDqu0KY5y18?si=T8_U09RgkWvUIZRM"
+            />
+          </div>
+
+          <div>
+            <h3 class="mb-3">Responsive front-end</h3>
+            <ResponsiveYoutubeIframe
+              url="https://www.youtube.com/embed/Pv76rQNkxQ8?si=nHb-mkFVcMsL7VTX"
+            />
+          </div>
+
+          <div>
+            <h3 class="mb-3">Full-stack admin panel</h3>
+            <ResponsiveYoutubeIframe
+              url="https://www.youtube.com/embed/XQQ7hD3mcxc?si=UCp2y2e73FTikbRW"
+            />
+          </div>
         </section>
       </div>
     </div>

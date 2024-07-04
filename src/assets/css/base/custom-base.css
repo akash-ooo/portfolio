@@ -38,7 +38,7 @@
 
   /*Anchor link (<a/>)*/
   .link {
-    @apply underline transition-all duration-300 hover:decoration-pink-600;
+    @apply font-semibold text-pink-600 underline transition-all duration-200 hover:text-pink-700 hover:decoration-pink-700;
   }
 
   /*Active link*/
