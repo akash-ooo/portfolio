@@ -29,7 +29,7 @@
       </div>
       <div class="text-right">
         <RouterLink
-          :to="{ name: 'lc' }"
+          :to="{ name: 'analyzer' }"
           class="line-animation text-nowrap text-sm text-neutral-100"
           href="#"
           >Call & SMS analyzer

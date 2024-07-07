@@ -24,7 +24,7 @@
       >Complete e-commerce
       </RouterLink>
       <RouterLink
-        :to="{ name: 'lc' }"
+        :to="{ name: 'analyzer' }"
         class="line-animation flex-shrink-0 flex-grow-0 text-right text-sm text-neutral-100"
         href="#"
       >Call & SMS analyzer

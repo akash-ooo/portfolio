@@ -38,12 +38,12 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
           <div>
             <h3 class="mb-3">Customer section</h3>
             <ResponsiveYoutubeIframe
-              url="https://www.youtube.com/embed/IprckT524MM?si=mnGOFnPlaLbkfI6L"
+              url="https://www.youtube.com/embed/bXk35qH8UKs?si=qK5XotXcTN23ijJJ"
             />
           </div>
 
           <div>
-            <h3 class="mb-3">Pay-Per-Facebook-Share model and Multi level affiliate system</h3>
+            <h3 class="mb-3">Pay-Per-Facebook-Share marketing and multi level affiliate system</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/HOyzCLF7ICQ?si=5J0RsEmkmoMJ8fof"
             />

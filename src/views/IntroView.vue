@@ -14,8 +14,9 @@
             />
           </div>
           <!--Text content-->
+          <!-- TODO: SEO & Compress bg -->
           <h2 class="mb-3 text-center text-[22px] font-bold text-pink-600">
-            Full-Stack software engineer & UI/UX designer
+            Full-stack software engineer & UI/UX designer
           </h2>
           <div class="text-center text-sm">
             With 5+ years of full-stack web development experience and 1 year in UI/UX design, I
@@ -26,27 +27,27 @@
           </div>
 
           <div class="text-center text-sm">
-            <span class="font-semibold">UI/UX Design</span> <br />
-            Figma, Adobe XD, Photoshop, Illustrator (Basic), Lightroom, Canva.
+            <span class="font-semibold">UI/UX design</span> <br />
+            Figma, Adobe XD, Photoshop, Illustrator (basic), Lightroom and Canva.
           </div>
 
           <p class="text-center text-sm">
-            <span class="font-semibold">Front-End</span> <br />
+            <span class="font-semibold">Front-end</span> <br />
             JavaScript, Vue.js, Nuxt.js, jQuery, REST API, AJAX, CSS3, Tailwind CSS, Bootstrap,
-            SCSS, RWD, HTML5, On-Page SEO.
+            SCSS, RWD, HTML5, on-page SEO.
           </p>
 
           <p class="text-center text-sm">
-            <span class="font-semibold">Back-End and Database</span> <br />
-            Object-Oriented PHP, Laravel, MVC Architecture, PHPUnit, Node.js, Express.js, MySQL,
+            <span class="font-semibold">Back-end and database</span> <br />
+            Object-oriented PHP, Laravel, MVC architecture, PHPUnit, Node.js, Express.js, MySQL,
             PostgreSQL, SQLite, MariaDB, MongoDB, Firebase.
           </p>
 
           <p class="text-center text-sm">
-            <span class="font-semibold">DevOps and Additional Skills</span> <br />
-            Git, Testing & Debugging, Domain & Cloud Server Management, Apache, Nginx, CDN,
-            WordPress, WooCommerce, Mobile & Desktop WebView App, Digital Marketing, Word, Excel,
-            PowerPoint, Video Editing (Basic).
+            <span class="font-semibold">DevOps and additional skills</span> <br />
+            Git, testing and debugging, domain and cloud server
+            management, Apache, Nginx, CDN, WordPress, WooCommerce, mobile and desktop WebView app,
+            digital marketing, Word, Excel, PowerPoint, video editing (basic).
           </p>
 
           <p class="text-center text-sm">

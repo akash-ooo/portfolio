@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import IntroView from '@/views/IntroView.vue'
-import CompleteEcommerce from '@/views/CompleteEcommerce.vue'
-import LaravelCdrView from '@/views/LaravelCdrView.vue'
+import CompleteEcommerceView from '@/views/CompleteEcommerceView.vue'
+import AnalyzerView from '@/views/AnalyzerView.vue'
 import GamingView from '@/views/GamingView.vue'
 import PortfolioView from '@/views/PortfolioView.vue'
 import OtherView from '@/views/OtherView.vue'
@@ -18,12 +18,12 @@ const router = createRouter({
   {
     path: '/complete-ecommerce',
     name: 'ecommerce',
-    component: CompleteEcommerce
+    component: CompleteEcommerceView
   },
   {
-    path: '/laravel-cdr-analyzer',
-    name: 'lc',
-    component: LaravelCdrView
+    path: '/analyzer',
+    name: 'analyzer',
+    component: AnalyzerView
   },
   {
     path: '/gaming-contest-platform',

@@ -16,9 +16,8 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             implemented a mobile-first frontend using HTML, CSS, and JavaScript. Backend
             functionalities, powered by Laravel PHP and MySQL, and managed through DevOps practices,
             include a dynamic admin panel for seamless operation. This project integrates
-            multiplayer gaming, tournament management, live streaming, and brand promotion,
-            delivering a responsive, SEO-optimized experience across devices. Please note, the
-            project video is not final.
+            virtual rooms, multiplayer gaming, tournament management, live streaming, and delivers a responsive,
+            SEO-optimized experience across devices. Please note, the project video is not final.
           </p>
         </div>
 

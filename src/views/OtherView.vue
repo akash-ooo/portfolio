@@ -46,7 +46,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             <div class="mb-3">
               <h3 class="mb-1">Digital signature drawing app</h3>
               <p>
-                I developed a signature drawing app using raw JavaScript's 2D canvas, following my
+                I developed a signature drawing app using raw JavaScript's 2D canvas, following
                 instructor and leveraging my expertise in JavaScript and canvas-based programming.
                 During this project, I also explored 3D concepts and WebGL.
                 <a
