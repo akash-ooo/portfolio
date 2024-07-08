@@ -9,7 +9,7 @@
           <div class="!mb-4 flex items-center justify-center">
             <img
               class="h-auto w-[150px] text-center lg:h-full lg:w-[170px]"
-              src="/src/assets/images/md-arif-hossain-akash-full-stack-web-developer-and-ui-ux-designer.png"
+              src="/src/assets/images/akash-full-stack-web-developer-and-ui-ux-designer.png"
               alt="Md Arif Hossain Akash Full Stack Developer & UI UX Designer"
             />
           </div>
