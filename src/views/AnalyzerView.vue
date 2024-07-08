@@ -9,7 +9,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Text-->
         <div class="mb-6">
           <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">
-            CDR (call detail record) crime data analyzing software
+            Police CDR crime data analyzer UI/UX design, web app, hybrid desktop & mobile software
           </h2>
           <p class="mb-2 text-left text-sm text-neutral-100">
             I managed this entire project individually for the X Detective Branch Police (DB) team.
@@ -42,7 +42,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
           </div>
 
           <div>
-            <h3 class="mb-3">Updated high-fidelity Figma designs for desktop and mobile apps</h3>
+            <h3 class="mb-3">Updated high-fidelity interactive Figma designs for desktop and mobile apps</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/H1UuGM53gM8?si=KfFhke9ItXLpeyRX"
             />

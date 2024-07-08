@@ -1,18 +1,13 @@
-# portfoli
+# My personal portfolio website
+This is a mobile-first portfolio website showcasing my skills in UI/UX design and full-stack development. Built with Figma for design and a tech stack of Tailwind CSS, Vue.js, and TypeScript, it offers a responsive experience with cool animations. [View it online.](https://arif.codes)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Preview
 
-## Recommended IDE Setup
+![Vue js todo app preview 2](/.preview/figma-design.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![Vue js todo app preview 1](/.preview/1.png)
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![Vue js todo app preview 2](/.preview/2.png)
 
 ## Project Setup
 
@@ -30,32 +25,4 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```

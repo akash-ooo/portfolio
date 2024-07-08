@@ -10,7 +10,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Text-->
         <div class="mb-6">
           <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">
-            City Stanja complete e-commerce website & Android app
+            City Stanja complete e-commerce UI/UX design, full-stack development & mobile app
           </h2>
           <p class="mb-2 text-left text-sm text-neutral-100">
             In this

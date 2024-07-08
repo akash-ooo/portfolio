@@ -8,7 +8,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
       <div class="sliding-left-animation overflow-auto">
         <!--Text-->
         <div class="mb-6">
-          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Virtual game room</h2>
+          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Virtual game room UI/UX design & full-stack app</h2>
           <p class="text-left text-sm text-neutral-100">
             I independently spearheaded the development of this virtual game room platform where
             players of PUBG and Valorant-type games can join tournaments and engage in competitive
@@ -24,7 +24,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Videos-->
         <section class="space-y-6">
           <div>
-            <h3 class="mb-3">Adobe XD high-fidelity design</h3>
+            <h3 class="mb-3">XD high-fidelity interactive design</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/bDqu0KY5y18?si=T8_U09RgkWvUIZRM"
             />

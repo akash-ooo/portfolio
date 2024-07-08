@@ -17,15 +17,15 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Videos-->
         <section class="space-y-6">
           <div>
-            <h3 class="mb-3">Figma design</h3>
+            <h3 class="mb-3">Figma high-fidelity prototype</h3>
             <ResponsiveYoutubeIframe
-              url="https://www.youtube.com/embed/bDqu0KY5y18?si=T8_U09RgkWvUIZRM"
+              url="https://www.youtube.com/embed/HSKVd2Lc1mk?si=UG1A3aMVNQ8tz7nq"
             />
           </div>
           <div>
-            <h3 class="mb-3">Mobile-optimized front-end</h3>
+            <h3 class="mb-3">Responsive SPA front-end</h3>
             <ResponsiveYoutubeIframe
-              url="https://www.youtube.com/embed/bDqu0KY5y18?si=T8_U09RgkWvUIZRM"
+              url="https://www.youtube.com/embed/R3vndoNxaqY?si=nw9x_QVkovg7J4OwM"
             />
           </div>
         </section>
