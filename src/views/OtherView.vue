@@ -14,7 +14,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             frameworks. Here, I present a collection of my experimental projects alongside small
             client projects.
           </p>
-          <p class="font-semibold text-pink-600">
+          <p class="font-bold text-pink-600">
             Please note that some of my client projects are covered by non-disclosure agreements
             (NDAs), preventing me from sharing details publicly. If you're interested in seeing more
             of my high-value projects, please feel free to reach out via email, and I'll be happy to

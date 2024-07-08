@@ -24,12 +24,12 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             multilevel affiliate programs and Facebook-centric viral marketing
             Pay-Per-Facebook-Share model.
           </p>
-          <p class="mb-2">
+          <p class="mb-2 font-semibold">
             I boosted our online business in the Bangladesh e-commerce clothing market, reaching
             150,000 customers and earning 5 million BDT in revenue last year.
           </p>
           <p>
-            Tech stack: Photoshop, HTML, CSS, RWD, JavaScript, jQuery, PHP, MySQL, SEO, and DevOps.
+            Tech stack: Photoshop, HTML, CSS, RWD, JavaScript, jQuery, PHP, MySQL, SEO, DevOps, and WebView app.
           </p>
         </div>
 
@@ -61,6 +61,16 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/Ru-GMwrcfI0?si=9ERXZhye1edFmWL4"
             />
+          </div>
+
+          <!--  Image -->
+          <div>
+            <h3 class="mb-3">WebView app</h3>
+              <img
+                alt="App screenshot"
+                class="h-full w-full overflow-hidden rounded-lg"
+                src="/src/assets/images/stanja-app.jpg"
+              />
           </div>
         </section>
       </div>

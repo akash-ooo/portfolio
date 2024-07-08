@@ -22,7 +22,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             techniques. Currently, I am enhancing the UI/UX design and integrating new software
             features.
           </p>
-          <p class="mb-2">
+          <p class="mb-2 font-semibold">
             These efforts collectively reduced crime data analysis time by approximately 80%,
             facilitating quicker insights.
           </p>
