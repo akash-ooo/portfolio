@@ -14,7 +14,6 @@
             />
           </div>
           <!--Text content-->
-          <!-- TODO: SEO & Compress bg -->
           <h2 class="mb-3 text-center text-[22px] font-bold text-pink-600">
             Full-stack software engineer & UI/UX designer
           </h2>

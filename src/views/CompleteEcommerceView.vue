@@ -3,7 +3,6 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
 </script>
 
 <template>
-  <!--TODO: Add last updated or copyright date (ask AI)-->
   <section class="h-full grow overflow-auto lg:basis-full lg:px-6 lg:py-12">
     <div v-custom-scroll-bar class="h-full overflow-auto rounded-md" data-scrollbar-type="dynamic">
       <div class="sliding-left-animation overflow-auto">
