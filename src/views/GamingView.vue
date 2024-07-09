@@ -8,11 +8,9 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
       <div class="sliding-left-animation overflow-auto">
         <!--Text-->
         <div class="mb-6">
-          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Virtual game room UI/UX design & full-stack app</h2>
+          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Virtual game room UI/UX design & full-stack development</h2>
           <p class="text-left text-sm text-neutral-100">
-            I independently spearheaded the development of this virtual game room platform where
-            players of PUBG and Valorant-type games can join tournaments and engage in competitive
-            gaming. I optimized the UI/UX in Adobe XD, creating a high-fidelity prototype, and
+            I independently spearheaded the development of this virtual game room platform where players of PUBG and Valorant multiplayer types games can join tournaments and engage in competitive gaming. I optimized the UI/UX in Adobe XD, creating a high-fidelity prototype, and
             implemented a mobile-first frontend using HTML, CSS, and JavaScript. Backend
             functionalities, powered by Laravel PHP and MySQL, and managed through DevOps practices,
             include a dynamic admin panel for seamless operation. This project integrates

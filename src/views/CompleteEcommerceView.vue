@@ -29,7 +29,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             150,000 customers and earning 5 million BDT in revenue last year.
           </p>
           <p>
-            Tech stack: Photoshop, HTML, CSS, RWD, JavaScript, jQuery, PHP, MySQL, SEO, DevOps, and WebView app.
+            Tech stack: Photoshop, HTML, CSS, RWD, JavaScript, jQuery, PHP, MySQL, SEO, DevOps, and WebView mobile app.
           </p>
         </div>
 

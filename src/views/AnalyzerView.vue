@@ -13,13 +13,10 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
           </h2>
           <p class="mb-2 text-left text-sm text-neutral-100">
             I managed this entire project individually for the X Detective Branch Police (DB) team.
-            Developed a versatile full-stack web app, hybrid mobile, and desktop software. Created a
+            Developed a versatile full-stack web app, hybrid desktop, and mobile software. Created a
             modern crime data analysis system to automate tasks previously handled in Excel.
             Developed an automated system to generate summaries of suspect communications and
-            relationships using call, SMS, location, and IMEI data. Implemented an advanced suspect
-            detection system using multiple CDR cross-matching, device switching patterns, B party
-            cross-matching, night stay location patterns, and advanced CDR data filtering
-            techniques. Currently, I am enhancing the UI/UX design and integrating new software
+            relationships using call, SMS, location, and IMEI data. Implemented an advanced suspect detection system using multiple CDR cross-matching, device switching, night stay patterns, and advanced CDR data filtering techniques. Currently, I am enhancing the UI/UX design and integrating new software
             features.
           </p>
           <p class="mb-2 font-semibold">
@@ -42,7 +39,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
           </div>
 
           <div>
-            <h3 class="mb-3">Updated high-fidelity interactive Figma designs for desktop and mobile apps</h3>
+            <h3 class="mb-3">Updated Figma high-fidelity interactive designs for desktop and mobile apps</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/H1UuGM53gM8?si=KfFhke9ItXLpeyRX"
             />

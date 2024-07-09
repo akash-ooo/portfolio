@@ -67,7 +67,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
               <p>
                 Created an e-commerce prototype, meticulously following their product
                 specifications, target audience preferences, and brand guidelines using Adobe XD.
-                After completing this initial low-fidelity design, I was tasked with refining it into
+                After completing initial low-fidelity design, I was tasked with refining it into
                 a high-fidelity prototype and developing the frontend.
               </p>
             </div>
