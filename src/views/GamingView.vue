@@ -8,7 +8,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
       <div class="sliding-left-animation overflow-auto">
         <!--Text-->
         <div class="mb-6">
-          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Virtual game room UI/UX design & full-stack development</h2>
+          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Virtual Game Room UI/UX Design & Full-Stack Development</h2>
           <p class="text-left text-sm text-neutral-100">
             I independently spearheaded the development of this virtual game room platform where players of PUBG and Valorant multiplayer types games can join tournaments and engage in competitive gaming. I optimized the UI/UX in Adobe XD, creating a high-fidelity prototype, and
             implemented a mobile-first frontend using HTML, CSS, and JavaScript. Backend
@@ -22,21 +22,21 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Videos-->
         <section class="space-y-6">
           <div>
-            <h3 class="mb-3">XD high-fidelity interactive design</h3>
+            <h3 class="mb-3">Adobe XD High-Fidelity Interactive Design</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/bDqu0KY5y18?si=T8_U09RgkWvUIZRM"
             />
           </div>
 
           <div>
-            <h3 class="mb-3">Responsive front-end</h3>
+            <h3 class="mb-3">Responsive Front-End</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/Pv76rQNkxQ8?si=nHb-mkFVcMsL7VTX"
             />
           </div>
 
           <div>
-            <h3 class="mb-3">Full-stack admin panel</h3>
+            <h3 class="mb-3">Full-Stack Admin Panel</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/XQQ7hD3mcxc?si=UCp2y2e73FTikbRW"
             />

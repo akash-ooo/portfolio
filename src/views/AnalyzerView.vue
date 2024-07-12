@@ -9,7 +9,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Text-->
         <div class="mb-6">
           <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">
-            Police CDR crime data analyzer UI/UX design, web app, hybrid desktop & mobile software
+            Police CDR Crime Data Analyzer: UI/UX Design, Full Stack Web App, Hybrid Mobile and Desktop Software
           </h2>
           <p class="mb-2 text-left text-sm text-neutral-100">
             I managed this entire project individually for the X Detective Branch Police (DB) team.
@@ -24,7 +24,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
             facilitating quicker insights.
           </p>
           <p>
-            Tech stack: Figma, Laravel PHP, SQLite, JavaScript, Vue.js, Quasar cross-platform framework, Capacitor JS, and
+            Tech stack: Figma, PHP, Laravel, SQLite, JavaScript, Vue.js, Quasar cross-platform framework, Capacitor JS, and
             Electron.
           </p>
         </div>
@@ -32,14 +32,14 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Videos-->
         <section class="space-y-6">
           <div>
-            <h3 class="mb-3">Hybrid desktop software</h3>
+            <h3 class="mb-3">Hybrid Desktop Software</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/kaxbAqYLUXI?si=81S-b_A1KmQY0CRM"
             />
           </div>
 
           <div>
-            <h3 class="mb-3">Updated Figma high-fidelity interactive designs for desktop and mobile apps</h3>
+            <h3 class="mb-3">Updated Figma High-Fidelity Interactive Designs for Desktop and Mobile Apps</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/H1UuGM53gM8?si=KfFhke9ItXLpeyRX"
             />

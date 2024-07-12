@@ -9,7 +9,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Text-->
         <div class="mb-6">
           <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">
-            City Stanja complete e-commerce UI/UX design, full-stack development & mobile app
+            City Stanja Complete E-Commerce UI/UX Design, Full-Stack Development & Mobile App
           </h2>
           <p class="mb-2 text-left text-sm text-neutral-100">
             In this
@@ -35,28 +35,28 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <!--Videos-->
         <section class="space-y-6">
           <div>
-            <h3 class="mb-3">Customer section</h3>
+            <h3 class="mb-3">Customer Section</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/bXk35qH8UKs?si=qK5XotXcTN23ijJJ"
             />
           </div>
 
           <div>
-            <h3 class="mb-3">Pay-Per-Facebook-Share marketing and multi level affiliate system</h3>
+            <h3 class="mb-3">Pay-Per-Facebook-Share Marketing and Multi-Level Affiliate System</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/HOyzCLF7ICQ?si=5J0RsEmkmoMJ8fof"
             />
           </div>
 
           <div>
-            <h3 class="mb-3">Admin section</h3>
+            <h3 class="mb-3">Admin Section</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/vAUSkbBSNgc?si=lDT5Ob52RIUZILSp"
             />
           </div>
 
           <div>
-            <h3 class="mb-3">Coupon system</h3>
+            <h3 class="mb-3">Coupon System</h3>
             <ResponsiveYoutubeIframe
               url="https://www.youtube.com/embed/Ru-GMwrcfI0?si=9ERXZhye1edFmWL4"
             />
@@ -64,7 +64,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
 
           <!--  Image -->
           <div>
-            <h3 class="mb-3">WebView app</h3>
+            <h3 class="mb-3">WebView App</h3>
               <img
                 alt="App screenshot"
                 class="h-full w-full overflow-hidden rounded-lg"

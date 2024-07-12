@@ -8,7 +8,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
       <div class="sliding-left-animation overflow-auto">
         <!--Text-->
         <div class="mb-6">
-          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Other projects</h2>
+          <h2 class="mb-3 text-left text-[22px] font-bold text-pink-600">Other Projects</h2>
           <p class="mb-2 text-left text-sm text-neutral-100">
             During my free time, I passionately explore a diverse range of technologies and
             frameworks. Here, I present a collection of my experimental projects alongside small
@@ -26,7 +26,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
         <section class="space-y-6">
           <div>
             <div class="mb-3">
-              <h3 class="mb-1">Vue.js SPA todo app</h3>
+              <h3 class="mb-1">Vue.js SPA Todo App</h3>
               <p>
                 I built a todo app with a sleek gradient UI and animations using Vuetify, Vue,
                 TypeScript, and I18n entirely by myself for practice.
@@ -44,7 +44,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
           </div>
           <div>
             <div class="mb-3">
-              <h3 class="mb-1">Digital signature drawing app</h3>
+              <h3 class="mb-1">Digital Signature Drawing App</h3>
               <p>
                 I developed a signature drawing app using raw JavaScript's 2D canvas, following
                 instructor and leveraging my expertise in JavaScript and canvas-based programming.
@@ -63,7 +63,7 @@ import ResponsiveYoutubeIframe from '@/components/ResponsiveYoutubeIframe.vue'
           </div>
           <div>
             <div class="mb-3">
-              <h3 class="mb-1">E-commerce prototype design for a USA-based company</h3>
+              <h3 class="mb-1">E-commerce Prototype Design for a USA-Based Company</h3>
               <p>
                 Created an e-commerce prototype, meticulously following their product
                 specifications, target audience preferences, and brand guidelines using Adobe XD.
